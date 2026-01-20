@@ -7,6 +7,6 @@ zander = float(input("enter the lenght of the zander in centimeters:"))
 
 if zander < 42:
     print("release the fish back into the lake")
-    print(f"your fish is", (42-zander) , "cm below the limit!!!")
+    print(f"your fish is " + str(42-zander) + "cm below the limit!!!")
 else:
     print ("you can keep the fish :)")
